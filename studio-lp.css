@@ -1,0 +1,663 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 8px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 160px;
+}
+
+.sign-btn {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 8px 16px;
+    width: fit-content;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.hero-section {
+    background-image: url(image/hero-bg.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 160px;
+    padding-right: 0;
+    padding-top: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-label {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #1565C0;
+    width: fit-content;
+    font-weight: 600;
+    background-color: white;
+    padding: 4px 24px;
+    border-radius: 50px;
+}
+
+.hero-section h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 84px;
+    width: 400px;
+    color: white;
+    padding: 16px 0px;
+    
+}
+
+.hero-desc {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    width: 600px;
+    color: white;
+}
+
+.hero-btn {
+    display: grid;
+    padding: 40px 0px;
+    height: fit-content;
+    align-items: center;
+    gap: 40px;
+}
+
+.active-btn {
+    display: flex;
+    gap: 16px;
+}
+
+.start-btn {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1565C0;
+    background-color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 16px;
+    width: 180px;
+    border-radius: 60px;
+    text-align: center;
+}
+
+.schedule-btn {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #1565C0;
+    border: 1px solid rgba(255,255,255,0.6);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 16px;
+    width: 180px;
+    border-radius: 60px;
+    text-align: center;
+}
+
+.why-btn {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 8px 16px;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.integration-sec {
+    width: 100%;
+    height: 104px;
+    padding: 24px 160px;
+    display: flex;
+    gap: 24px;
+    top: 24px;
+    bottom: 24px;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.integration-sec h4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.integration-lists {
+    display: flex;
+    width: 56px;
+    height: 56px;
+    gap: 24px;
+}
+
+.tab-sec {
+    width: 100%;
+    padding: 120px 160px 48px 160px;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.service-tab {
+    display: flex;
+    flex-direction: row;
+    width: 748px;
+    border-radius: 50px;
+    padding: 8px 8px;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.tab-active {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: #673AB6;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 12px 16px;
+    text-align: center;
+    width: 244px;
+}
+
+.tab-inactive {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 12px 16px;
+    text-align: center;
+    width: 244px;
+}
+
+.price-update {
+    width: 100%;
+    padding: 48px 160px;
+    height: fit-content;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 56px;
+}
+
+.service-wording {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 32px;
+}
+
+.service-title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: black;
+    line-height: 60px;
+    width: 660px;
+}
+
+.title-tag {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #808080;
+    line-height: 24px;
+    width: 660px;
+}
+
+.service-desc {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 32px;
+    width: 660px;
+}
+
+.price-content{
+    display: grid;
+    gap: 72px;
+}
+
+.price-btn {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.price-btn-active {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #1E87E4;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 16px;
+    width: 200px;
+    border-radius: 60px;
+    text-align: center;
+}
+
+.price-btn-inactive {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222222;
+    background-color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 16px;
+    width: 200px;
+    border-radius: 60px;
+    border: 1px solid #a6a6a6;
+    text-align: center;
+}
+
+.price-img {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+    margin-left: 292px;
+}
+
+.price-img-wording {
+    display: grid;
+    gap: 8px;
+}
+
+.price-img h4 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: 400; 
+    width: 304px; 
+    text-align: left;
+}
+
+.price-img p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #808080;
+    font-size: 20px;
+    font-weight: 400;  
+    width: 304px;
+    text-align: left
+}
+
+.trading-hours {
+    width: 100%;
+    padding: 48px 160px;
+    height: fit-content;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
+}
+
+.trading-hours h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: black;
+    line-height: 60px;
+    width: 660px;
+}
+
+.service-card-frame {
+    width: 100%;
+    padding: 56px 160px;
+    display: flex;
+    gap: 32px;
+}
+
+.service-card {
+    display: grid;
+    gap: 24px;
+    width: 352px;
+}
+
+.card-wording {
+    display: grid;
+    gap: 8px;
+    justify-content: left;
+}
+
+.service-card-frame h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    line-height: 34px;
+    width: 352px;
+}
+
+.service-card-frame p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #4f4f4f;
+    line-height: 30px;
+    width: 352px;
+}
+
+.surcharges {
+    width: 100%;
+    padding: 48px 160px;
+    height: fit-content;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 56px;
+}
+
+.central-hub {
+    width: 100%;
+    padding: 80px 160px;
+    height: fit-content;
+    background-color: #FAFBFF;
+    border-radius: 160px 0px 0px 0px;
+    margin: 80px 0px;
+    display: grid;
+    gap: 80px;
+}
+
+.central-text {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    gap: 24px;
+}
+
+.central-hub h2 {
+    font-size: 48px;
+    line-height: 52px;
+}
+
+.central-hub p {
+    font-size: 20px;
+    line-height: 30px;
+    width: 750px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.launch-soon {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    padding: 16px 160px;
+    height: fit-content;
+    background-color: white;
+    display: grid;
+    gap: 56px;
+}
+
+.launch-text {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    gap: 24px;
+
+}
+
+.launch-soon h2 {
+    font-size: 48px;
+    line-height: 52px;
+}
+
+.upcoming-card-frame {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+}
+
+.upcoming-card {
+    display: grid;
+    gap: 32px;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 32px 24px;
+    width: fit-content;
+}
+
+.upcoming-card-text {
+    display: grid;
+    gap: 16px;
+}
+
+.upcoming-card h3{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.upcoming-card p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #222222;
+}
+
+.testimoni {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    padding: 80px 160px;
+    height: fit-content;
+    background-color: #673AB6;
+    border-radius: 160px 0px 0px 0px;
+    margin: 80px 0px;
+    display: grid;
+    gap: 80px; 
+}
+
+.testimoni-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimoni h2 {
+    font-size: 48px;
+    line-height: 52px;
+    color: white;
+}
+
+.testimoni h3 {
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+}
+
+.img-title {
+    font-size: 14px;
+    line-height: 20px;
+    color: #808080;
+}
+
+.demo-btn {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #673AB6;
+    background-color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 12px;
+    width: 180px;
+    height: fit-content;
+    border-radius: 60px;
+    text-align: center;
+}
+
+.testimoni-card-frame {
+    width: 100%;
+    display: flex;
+    gap: 32px;
+}
+
+.testimoni-card {
+    display: grid;
+    gap: 24px;
+    padding: 32px;
+    border-radius: 20px;
+    background-color: white;
+    justify-content: center;
+    justify-items: center;
+}
+
+.card-top {
+    display: grid;
+    gap: 16px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.card-header {
+    display: grid;
+    gap: 8px;
+    text-align: center;
+}
+
+.testimoni-desc {
+    width: 100%;
+    font-size: 18px;
+    line-height: 30px;
+    width: fit-content;
+    text-align: center;
+}
+
+.subs {
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 80px 160px;
+    height: fit-content;
+    border-radius: 160px 0px 0px 0px;
+    margin: 80px 0px;
+    display: grid;
+    gap: 48px; 
+    justify-items: center;
+}
+
+.subs-wording {
+    display: grid;
+    gap: 24px;
+    width: 597px;
+    justify-content: center;
+}
+
+.subs h2{
+    font-size: 52px;
+    font-weight: 700;
+    color: black;
+    line-height: 60px;
+    width: 660px;
+    text-align: center;
+}
+
+span {
+    color: #673AB6;
+}
+
+.subs p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+    text-align: center;
+}
+
+.sub-btn {
+    text-decoration: none;
+    padding: 16px 32px;
+    background-color: #1565C0;;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 80px 160px 24px;
+    background-color: #EDF1F3;
+    height: fit-content;
+    display: grid;
+    gap: 40px; 
+    justify-items: center;
+}
+
+.footer-desc {
+    font-size: 16px;
+    line-height: 28px;
+    color: #222222;
+    text-align: center;
+}
+
+.email {
+    display: grid;
+    gap: 16px;
+    width: 320px;
+    justify-content: center;
+}
+
+.email input {
+    position: relative;
+    width: 100%;
+    height: fit-content; 
+    border: none;   
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.email input::placeholder {
+    color: #425466;
+}
+
+.text.input {
+    border: none;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-email {
+    width: 300px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #808080;
+    text-align: center;
+}
+
+footer hr {
+    width: 100%;
+    border: 1px solid #E5E5E5;
+}
+
+.footer-credit {
+    font-size: 14px;
+    line-height: 24px;
+    color: #4F4F4F;
+    text-align: center;
+}

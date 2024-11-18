@@ -1,0 +1,94 @@
+body {
+    background-color: ffff;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p   {
+    font-size: 16px;
+}
+
+.login-button {
+    padding: 16px;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 10px;
+    background: var(--Telkom-Primary, #ED1C24);
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+.credential-btn {
+    padding: 16px;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 10px;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    border-color: #c1C9D8;
+}
+
+.telkom {
+    float: left;
+    width: 400px;
+    height: fit-content;
+    object-fit: cover;
+    margin-right: 120px;
+}
+
+.credential-form {
+    display: grid;
+    padding: 48px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 416px;
+}
+
+.header-form-text {
+    line-height: 1;
+    width: 100%;
+}
+
+.form-field {
+    display: grid;
+    line-height: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+form {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+label {
+    color: var(--Black, #000);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.text-input {
+    display: flex;
+    width: 416px;
+    padding: 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--Grey-3, #E5E5E5);
+    background: var(--White, #FFF);
+}
+
+.credential-login {
+    display: grid;
+    gap: 12px;
+}

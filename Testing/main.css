@@ -1,0 +1,116 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    background-color: #fafafa;
+    color: black;
+}
+
+hr  {
+    border-color: grey;
+}
+
+img {
+    width: 100px;
+    border-radius: 50px;
+    float: center;
+    margin-right: 16px;
+}
+
+p {
+    color: #707070;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+h3 {
+    font-size: 32px;
+    line-height: 120%;
+    margin: 3px 0 0;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 20px 0 10px;
+}
+
+h6 {
+    color: #707070;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.button {
+    font-size: 14px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 14px 24px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.testimony-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+    width: 100%;
+}
+
+.testimony-4sv {
+    margin-top: 32px;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.testimony-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 32px;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.testimony-right-header {
+    width: 100%;
+    position: relative;
+}
+
+.testimony-left-header {
+    width: 100%;
+    position: relative;
+}
+
+.card-descriptions {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 16px;
+    color: black;
+}
+
+.testimony-list-container {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 24px;
+    
+}
+
+.testimony-card {
+    background: #ffff;
+    border: 1px solid #ededed;
+    box-sizing: border-box;
+    box-shadow: 0 14px 20px rgba(0, 0, 0, .04);
+    border-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+    padding: 24px 24px;
+    text-align: center;
+    position: relative;
+}
+
